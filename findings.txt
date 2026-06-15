@@ -1,0 +1,28 @@
+Mini SOC Lab – Findings
+
+Objective:
+Simulate user and repeated outbound activity in a controlled Linux environment and investigate network behavior.
+
+Environment:
+
+Ubuntu Virtual Machine (VirtualBox)
+Wireshark
+Terminal networking utilities
+
+Activities Performed:
+
+Captured baseline network activity
+Generated ICMP traffic using ping
+Generated DNS queries using nslookup
+Generated outbound web traffic using curl
+Simulated repeated outbound requests
+
+Observations:
+
+Observed increased packet volume during repeated activity
+Identified repeated communication to the same destination IP
+Detected both TCP and DNS traffic
+Used Wireshark filters to isolate and inspect protocol behavior
+
+Conclusion:
+Network traffic patterns matched the simulated activity. Packet filtering and protocol analysis were used to investigate system communication and identify repeated outbound connections.
