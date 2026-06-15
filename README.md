@@ -9,13 +9,13 @@ Ubuntu Linux
 Wireshark
 Terminal utilities (ping, curl, nslookup, netstat)
 
-**Objectives**
+**Objectives:**
 Set up a controlled virtual network environment
 Capture and analyze network traffic
 Identify and interpret TCP and DNS communication patterns
 Simulate repeated outbound requests and investigate behavior
 
-**Methodology**
+**Methodology:**
 Configured Ubuntu virtual machine in VirtualBox
 Installed network analysis tools
 Generated network traffic using command-line tools
@@ -23,11 +23,11 @@ Captured packets using Wireshark
 Filtered traffic by protocol (TCP, DNS, ICMP)
 Analyzed repeated connection patterns
 
-**Key Findings**
+**Key Findings:**
 Observed repeated outbound connections to the same destination IP
 Identified DNS resolution followed by TCP communication
 Detected increased packet volume during simulated repeated requests
 Used protocol filtering to isolate and analyze traffic behavior
 
-**Outcome**
+**Outcome:**
 This project demonstrates foundational skills in networking, Linux systems, and cybersecurity analysis techniques used in SOC environments.
